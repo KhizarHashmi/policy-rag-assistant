@@ -1,0 +1,6 @@
+.env
+.chroma
+.venv
+__pycache__
+tests
+eval/results.json

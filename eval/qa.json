@@ -1,0 +1,22 @@
+[
+  {"id": "q01", "question": "What is the daily room and board limit on the Essential plan?", "doc": "plan_essential", "section": "Hospital Room and Board", "expect_any": ["250"]},
+  {"id": "q02", "question": "Is maternity covered under the Plus plan, and what is the limit for a caesarean delivery?", "doc": "plan_plus", "section": "Maternity", "expect_any": ["6,000", "6000"]},
+  {"id": "q03", "question": "What is the annual deductible on the Premier plan?", "doc": "plan_premier", "section": "Deductible and Co-insurance", "expect_any": ["no deductible", "0"]},
+  {"id": "q04", "question": "How far in advance must a pre-authorisation request be submitted for planned surgery?", "doc": "preauthorisation_guide", "section": "How to Request Pre-authorisation", "expect_any": ["5 working days"]},
+  {"id": "q05", "question": "What happens if I have treatment without getting pre-authorisation first?", "doc": "preauthorisation_guide", "section": "If You Do Not Obtain Pre-authorisation", "expect_any": ["20%"]},
+  {"id": "q06", "question": "Within how many days of discharge must I submit a claim?", "doc": "general_terms", "section": "Making a Claim", "expect_any": ["90 days"]},
+  {"id": "q07", "question": "Is cosmetic surgery covered?", "doc": "general_terms", "section": "General Exclusions", "expect_any": ["not", "exclu"]},
+  {"id": "q08", "question": "What is the waiting period for pre-existing conditions under Essential?", "doc": "plan_essential", "section": "Pre-existing Conditions", "expect_any": ["24 months"]},
+  {"id": "q09", "question": "Does the Plus plan cover emergency treatment overseas, and up to what amount?", "doc": "plan_plus", "section": "Emergency Treatment Overseas", "expect_any": ["50,000", "50000"]},
+  {"id": "q10", "question": "How much does the Premier plan pay for outpatient care each year?", "doc": "plan_premier", "section": "Outpatient Treatment", "expect_any": ["10,000", "10000"]},
+  {"id": "q11", "question": "What is the ICU daily limit under the Plus plan?", "doc": "plan_plus", "section": "Hospital Room and Board", "expect_any": ["1,800", "1800"]},
+  {"id": "q12", "question": "Are immunotherapy drugs for cancer covered by Premier?", "doc": "plan_premier", "section": "Cancer Treatment", "expect_any": ["as charged"]},
+  {"id": "q13", "question": "How quickly do you respond to an urgent pre-authorisation request?", "doc": "preauthorisation_guide", "section": "Response Times", "expect_any": ["4 hours"]},
+  {"id": "q14", "question": "Which documents do I need to send with a claim?", "doc": "general_terms", "section": "Making a Claim", "expect_any": ["itemised invoice"]},
+  {"id": "q15", "question": "Can I claim for weight-loss surgery?", "doc": "general_terms", "section": "General Exclusions", "expect_any": ["40"]},
+  {"id": "q16", "question": "What co-insurance applies at out-of-network hospitals on the Premier plan?", "doc": "plan_premier", "section": "Deductible and Co-insurance", "expect_any": ["20%"]},
+  {"id": "q17", "question": "I'm having a baby next year. Which plans would pay for the delivery?", "doc": ["plan_plus", "plan_premier"], "section": "Maternity", "expect_any": ["Plus"]},
+  {"id": "u01", "question": "How much is the monthly premium for a 40-year-old on the Plus plan?", "unanswerable": true},
+  {"id": "u02", "question": "Can I pay my premium with cryptocurrency?", "unanswerable": true},
+  {"id": "u03", "question": "What is the phone number of the Bangkok claims office?", "unanswerable": true}
+]

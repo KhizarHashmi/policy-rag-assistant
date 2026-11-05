@@ -1,0 +1,181 @@
+{
+  "retrieval": {
+    "bm25": {
+      "hit@1": 0.824,
+      "hit@5": 1.0,
+      "mrr": 0.865
+    },
+    "bm25 + plan filter": {
+      "hit@1": 0.824,
+      "hit@5": 1.0,
+      "mrr": 0.897
+    },
+    "dense": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "mrr": 1.0
+    },
+    "dense + plan filter": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "mrr": 1.0
+    },
+    "hybrid": {
+      "hit@1": 0.882,
+      "hit@5": 1.0,
+      "mrr": 0.941
+    },
+    "hybrid + plan filter": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "answers": {
+    "answer_accuracy": 1.0,
+    "citation_rate": 1.0,
+    "refusal_accuracy": 1.0
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "ok": true,
+      "cited": true,
+      "answer": "On the Essential plan, standard ward (4-bed) accommodation is covered up to SGD 250 per day [S1]. Intensive care unit (ICU) charges are covered up to SGD 1,000 per day [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q02",
+      "ok": true,
+      "cited": true,
+      "answer": "Yes, maternity benefits are covered under the Plus plan after a waiting period of 10 months from the cover start date [S1]. For a caesarean delivery, the plan pays up to SGD 6,000, which includes pre- and post-natal care [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q03",
+      "ok": true,
+      "cited": true,
+      "answer": "There is no deductible on the Premier plan [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q04",
+      "ok": true,
+      "cited": true,
+      "answer": "For planned treatment, the pre-authorisation request must reach Lumen Health Assurance at least 5 working days before the admission date [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q05",
+      "ok": true,
+      "cited": true,
+      "answer": "If treatment requiring pre-authorisation proceeds without it, the claim will still be assessed, but you will be required to pay an additional 20% co-payment on the eligible expenses, in addition to any applicable deductible and co-insurance [S1]. This penalty does not apply to emergency admissions that are notified within 48 hours [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q06",
+      "ok": true,
+      "cited": true,
+      "answer": "You must submit your claim through the member portal within 90 days of the date of discharge or outpatient treatment [S1]. Claims submitted after this 90-day period are not payable, unless you can demonstrate that it was not reasonably possible to submit them earlier [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q07",
+      "ok": true,
+      "cited": true,
+      "answer": "Cosmetic or aesthetic surgery and treatment are excluded from coverage, unless the procedure is required to restore function following an accident that is covered by the policy [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q08",
+      "ok": true,
+      "cited": true,
+      "answer": "Under the Essential plan, pre-existing conditions are covered only after a waiting period of \"24 months of continuous cover,\" provided they were declared on the application form [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q09",
+      "ok": true,
+      "cited": true,
+      "answer": "Yes, the Plus plan covers emergency treatment needed while travelling in Asia for up to 90 days per trip, up to SGD 50,000 per policy year [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q10",
+      "ok": true,
+      "cited": true,
+      "answer": "Under the Premier plan, outpatient treatment, which includes specialist and general practitioner consultations, diagnostic tests, prescribed medicines, and physiotherapy, is covered up to SGD 10,000 per policy year [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q11",
+      "ok": true,
+      "cited": true,
+      "answer": "Under the Plus plan, intensive care unit (ICU) charges are covered up to SGD 1,800 per day [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q12",
+      "ok": true,
+      "cited": true,
+      "answer": "Yes, immunotherapy drugs for cancer are covered as charged under the Premier Plan, with no annual sub-limit [S1]. Pre-authorisation is required for this treatment [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q13",
+      "ok": true,
+      "cited": true,
+      "answer": "Requests marked urgent by the treating doctor are answered within 4 hours, 24 hours a day [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q14",
+      "ok": true,
+      "cited": true,
+      "answer": "Every claim must include the original itemised invoice showing each charge, the discharge summary or medical report stating the diagnosis, proof of payment if you paid the provider yourself, and the pre-authorisation reference if pre-authorisation was required [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q15",
+      "ok": true,
+      "cited": true,
+      "answer": "You may claim for weight-loss (bariatric) surgery only if your body mass index is 40 or more, you have a related medical condition such as type 2 diabetes, and the treatment is pre-authorised [S1]. Bariatric surgery is a treatment that requires pre-authorisation [S2].",
+      "unanswerable": false
+    },
+    {
+      "id": "q16",
+      "ok": true,
+      "cited": true,
+      "answer": "On the Premier plan, treatment at out-of-network hospitals carries co-insurance of 20% of eligible expenses, which is uncapped [S1].",
+      "unanswerable": false
+    },
+    {
+      "id": "q17",
+      "ok": true,
+      "cited": true,
+      "answer": "Both the Plus Plan and the Premier Plan provide coverage for maternity delivery [S1, S2]. For the Plus Plan, the benefit pays up to SGD 4,000 for a normal delivery and up to SGD 6,000 for a caesarean delivery [S1]. For the Premier Plan, the benefit pays up to SGD 8,000 for a normal delivery and up to SGD 12,000 for a caesarean delivery [S2]. Both plans require a waiting period of 10 months from the cover start date to access these benefits [S1, S2].",
+      "unanswerable": false
+    },
+    {
+      "id": "u01",
+      "ok": true,
+      "cited": false,
+      "answer": "I cannot find the information regarding monthly premiums for a 40-year-old on the Plus plan in the provided policy documents.",
+      "unanswerable": true
+    },
+    {
+      "id": "u02",
+      "ok": true,
+      "cited": false,
+      "answer": "I cannot find information in the policy documents regarding whether premiums can be paid with cryptocurrency.",
+      "unanswerable": true
+    },
+    {
+      "id": "u03",
+      "ok": true,
+      "cited": false,
+      "answer": "I cannot find the phone number for the Bangkok claims office in the provided policy documents.",
+      "unanswerable": true
+    }
+  ]
+}
